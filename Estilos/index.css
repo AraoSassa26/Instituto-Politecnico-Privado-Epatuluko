@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+:root {
+    /* Cores Primárias */
+    --primary-100: #00539c; /* Azul Escuro */
+    --primary-200: #006ecf; /* Azul Médio */
+    --primary-300: #0389ff; /* Azul Claro */
+  
+    /* Cores de Destaque */
+    --accent-100: #66a5ad; /* Verde-azulado Suave */
+    --accent-200: #66a5ad; /* Verde-azulado Suave */
+    --accent-300: #66a5ad; /* Verde-azulado Suave */
+  
+    /* Cores de Fundo */
+    --background-100: #fafbfd; /* Branco Fumê */
+    --background-200: #e8ecf6; /* Cinza-azulado Claro */
+    --background-300: #d6deee; /* Azul-acinzentado Suave */
+  
+    /* Cores de Texto */
+    --text-100: #000b15; /* Quase Preto */
+    --text-200: #002648; /* Azul Marinho Profundo */
+    --text-300: #00407b; /* Azul Intenso */
+  }
+  
