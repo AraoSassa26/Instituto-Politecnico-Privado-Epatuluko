@@ -21,4 +21,16 @@
     --text-200: #002648; /* Azul Marinho Profundo */
     --text-300: #00407b; /* Azul Intenso */
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background-image: linear-gradient(#d6deee 1px, transparent 1px), linear-gradient(to right, #d6deee 1px, transparent 1px);
+    background-size: 15px 15px;
+    background-color: #d6deee;
+
+
+  }
   
