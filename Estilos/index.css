@@ -25,12 +25,77 @@
   html{
     scroll-behavior: smooth;
   }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
 
   body{
     background-image: linear-gradient(#d6deee 1px, transparent 1px), linear-gradient(to right, #d6deee 1px, transparent 1px);
     background-size: 15px 15px;
     background-color: #d6deee;
+    min-width: 600px;
+    max-width: 2000pxpx;
+    text-align: justify;
+    color: #333;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+   
 
 
   }
+  header {
+    text-align: center;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, var(--accent-300), #4a6784);
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+header a{
+  text-decoration: none;
+  color: white;
+}
+nav {
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, var(--accent-300), transparent);
+  display: flex;
+    justify-content: center; /* Centraliza os itens na horizontal */
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+nav a {
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 10px;
+  color: var(--text-100);
+  transition: 0.3s ease-in-out;
+  background-color: #d6deeef5;
+  border-radius: 8px; /* Borda arredondada */
+  font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* Evita que os botões quebrem em várias linhas */
+}
+
+nav a:hover {
+  background-color: #b8c7e0; /* Cor de hover mais sutil */
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15); /* Pequeno efeito de sombra */
+  
+
+}
+main{
+  text-align: justify;
+  padding: 10px;
+ 
+}
+footer{
+  background-image: linear-gradient(to bottom, var(--accent-300), #4a6784);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
   
